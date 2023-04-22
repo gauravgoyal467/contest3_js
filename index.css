@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    color:white;
+    
+}
+body{
+    background-color: black;
+    font-family: 'Inter';
+    margin: 50px;
+}
+ p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+ }
+.button{
+   
+    font-size: 24px;
+    color: #FFFFFF;
+    background: black;
+    border:1px solid #FFFFFF;
+    padding:15px;
+    gap:15px;
+    margin-top:30px;
+ }
+ /*.dropdown{
+    display:inline-block;
+ }
+
+ .dropdown:hover  .list{
+    display:inline-flex;
+ }
+
+a{
+    color:black;
+    text-decoration: none;
+}
+ .list{
+    display:none;
+    flex-direction: column;
+    gap:15px;
+    width:144px;
+    font-size: 20px;
+    position:absolute;
+    background-color:white;
+    padding:20px;
+ }*/
+ select {
+   background-color: black;
+   color: white;
+   padding: 20px;
+   border:2px solid white;
+   width:250px;
+   margin:40px 0px;
+   font-size: 18px;
+}
+
+ .items{
+   display:flex;
+   flex-direction: column;
+   gap:15px;
+   overflow-y:scroll;
+    margin-top:40px;
+    border: 2px solid rgb(131, 122, 122);
+    width:55%;
+    height:300px;
+    padding:10px;
+ }
+
+.content{
+    border :2px solid white;
+    padding:20px 10px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+ .btn{
+    background-color: white;
+    color:black;
+    padding:15px 65px;
+ }
+ .user {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 40px;
+ }
+ .input{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+ }
+ .sections{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+ }
+ .sections span{
+    font-weight: 400;
+    font-size: 20px;
+    
+ }
+ .inp{
+    border: 1px solid white;
+    background-color: black ;
+    width:350px;
+    height:50px;
+    border-radius: 10px;
+    padding:5px 20px;
+    font-size: 20px;
+ }
+ 

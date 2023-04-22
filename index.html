@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <p>Filter ui cards via their profession.</p>
+  
+  <select id="profList">
+  <option value="">--Select Profession --</option>
+  <option value="Developer">Developer</option>
+  <option value="Admin">Admin</option>
+  </select>
+
+  <div id="item" class="items">
+    
+  </div>
+
+  <button id="filterBtn" class="button btn">Filter</button>
+
+  <p class=" user">Add a new user</p>
+  <div id ="input" class="input">
+    <div class="sections">
+      <span>Enter Name</span>
+      <input id="name" class="inp" type="text" required>
+    </div>
+    <div class="sections">
+      <span>Enter Profession</span>
+      <input id="profession" class="inp" type="text" required>
+    </div>
+    <div class="sections">
+      <span>Enter Age</span>
+      <input id ="age" class="inp" type="number" required>
+    </div>
+  </div>
+
+  <button id ="addUser" class="button btn">Add User</button>
+   
+
+<script src="./index.js"></script>
+
+</body>
+</html>
